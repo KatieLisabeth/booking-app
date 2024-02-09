@@ -7,6 +7,7 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/https://klisabeth.github.io/booking-app/",
   plugins: [
     vue(),
     vueJsx(),

@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<style setup lang="ts">
+<style>
 .item {
   margin-top: 2rem;
   display: flex;

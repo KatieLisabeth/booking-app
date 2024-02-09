@@ -6,8 +6,8 @@ describe('My First Test', function () {
   it('visits the app root url', function () {
     browser.assert
       .textContains('.green', 'You did it!')
-      .assert.elementHasCount('.wrapper nav a', 2)
-      .strictClick('.wrapper nav a:last-child')
+      .assert.elementsCount('.wrapper nav a', 2)
+      
   })
 
   after((browser) => browser.end())

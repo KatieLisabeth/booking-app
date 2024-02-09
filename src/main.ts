@@ -1,4 +1,4 @@
-import './assets/main.scss';
+import './assets/styles/main.scss';
 
 // Import Bootstrap and BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css';

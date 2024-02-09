@@ -1,4 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
+import dts from "vite-plugin-dts";
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -7,10 +8,13 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "https://klisabeth.github.io/booking-app/",
   plugins: [
     vue(),
     vueJsx(),
-    nightwatchPlugin(),
+    dts({
+      insertTypesEntry: true,
+    }),
   ],
   resolve: {
     alias: {

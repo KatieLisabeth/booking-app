@@ -24,8 +24,10 @@
     "pinia": "^2.1.7",
     "primeflex": "^3.3.1",
     "primevue": "^3.37.0",
+    "vite-plugin-dts": "^3.7.2",
     "vite-plugin-nightwatch": "^0.4.5",
     "vue": "^3.3.6",
+    "vue-loader": "^17.4.2",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
